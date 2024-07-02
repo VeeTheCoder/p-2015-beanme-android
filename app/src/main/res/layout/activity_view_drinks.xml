@@ -1,0 +1,293 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.beanmeapp.beanme.activities.ViewDrinks">
+
+
+    <Button
+        android:onClick="doClick"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:background="#271b0b"
+        android:id="@+id/doneView"
+        android:textColor="#ddbb7e"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_width="match_parent"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User&apos;s"
+        android:id="@+id/uName"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drink"
+        android:id="@+id/textView4"
+        android:layout_toRightOf="@id/uName"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"
+
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="190dp"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/nameDrink"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/doneView"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText"
+            android:text="Drink:"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText2"
+            android:text="Size:"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText3"
+            android:text="Flavor:"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText4"
+            android:text="Temperature:"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText5"
+            android:layout_gravity="center_horizontal"
+            android:text="Blend:"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText6"
+            android:layout_gravity="center_horizontal"
+            android:text="Milk:"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/editText7"
+            android:layout_gravity="center_horizontal"
+            android:text="Shots:"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+Add-Ons"
+            android:id="@+id/textView"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:textColor="#8c8279"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foam"
+            android:id="@+id/foamCB"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:textColor="#8c8279"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Caramel"
+            android:id="@+id/carCB"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:textColor="#8c8279"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="190dp"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/nameDrink"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/drinkType"
+            android:text="Frappuccino"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/drinkSize"
+            android:text="Large"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/drinkFlavor"
+            android:text="Vanilla"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/drinkTemp"
+            android:text="Cold"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/drinkBlend"
+            android:layout_gravity="center_horizontal"
+            android:text="Iced"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/drinkMilk"
+            android:layout_gravity="center_horizontal"
+            android:text="Yes"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/drinkShots"
+            android:layout_gravity="center_horizontal"
+            android:text="4"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#8c8279"
+            android:paddingLeft="10dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textView2"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:textColor="#8c8279"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Whip  Cream"
+            android:id="@+id/whipCB"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:textColor="#8c8279"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chocolate"
+            android:id="@+id/chocCB"
+            android:checked="false"
+            android:gravity="center_vertical"
+            android:textColor="#8c8279"/>
+    </LinearLayout>
+
+</RelativeLayout>

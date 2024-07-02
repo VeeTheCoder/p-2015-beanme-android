@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#000"
+    tools:context="com.beanmeapp.beanme.login.Sign_In">
+
+    <TextView
+        android:id="@+id/logoOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Bean"
+        android:textColor="#bc8539"
+        android:textSize="55dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Me! "
+        android:id="@+id/logoTwo"
+        android:textColor="#FFF"
+        android:textSize="50dp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="27dp"
+        android:layout_alignBottom="@+id/logoOne"
+        android:layout_toRightOf="@+id/logoOne"
+        android:layout_toEndOf="@+id/logoOne" />
+
+
+
+
+</RelativeLayout>

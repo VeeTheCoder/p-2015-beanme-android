@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+
+    <EditText android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/groupNameEditText"
+              android:padding="10dp"
+              android:hint="Name the group:"
+              android:textSize="20sp" />
+
+    <ListView android:id="@+id/listView1" android:layout_width="fill_parent"
+              android:layout_weight="1"
+              android:layout_height="0dip" />
+
+    <Button
+            android:id="@+id/findSelected"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Invite Selected Contacts"
+            android:background="#271b0b"
+            android:textColor="#ddbb7e"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp" />
+
+</LinearLayout>
+
+        <!--
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.beanmeapp.beanme.activities.SearchRuns">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/groupNameEditText"
+            android:hint="Name the group:"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#eeeeee" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usernames"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/groupNameEditText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:textColor="#000"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_searchactiveruns"
+        android:dividerHeight="0.1dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
+-->
+

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.beanmeapp.beanme.activities.Runs">
+
+    <item android:id="@+id/addOrder" android:title="Add An Order"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/setLeaving" android:title="I'm Leaving"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/setArrived" android:title="I've Arrived"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/closeRun" android:title="Close Run"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>
